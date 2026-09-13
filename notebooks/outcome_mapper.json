@@ -1,0 +1,632 @@
+{
+    "neutropenia": {
+        "drugbank": [
+            "neutropenia, increase", 
+            "cytopenia, increase", 
+            "myelosuppression, anemia, severe leukopenia, increase", 
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Neutropenia",
+            "Pancytopenia",
+            "Leukopenia",
+            "Febrile neutropenia"
+        ]
+    },
+    "acute_kidney_injury": {
+        "drugbank": [
+            "renal failure, increase",
+            "nephrotoxicity, increase"
+        ],
+        "twosides": [
+            "Nephropathy toxic"
+        ]
+    },
+    "anemia": {
+        "drugbank": [
+            "myelosuppression, anemia, severe leukopenia, increase"
+        ],
+        "twosides": [
+            "Anaemia",
+            "Haemolytic anaemia"
+        ]
+    },
+    "anaemia": {
+        "drugbank": [
+            "myelosuppression, anemia, severe leukopenia, increase"
+        ],
+        "twosides": [
+            "Anaemia",
+            "Haemolytic anaemia"
+        ]
+    },
+    "pulmonary_embolism/deep_vein_thrombosis": {
+        "drugbank": [
+            "thrombosis, increase"
+        ],
+        "twosides": [
+            "Pulmonary embolism",
+            "Deep vein thrombosis",
+            "Thrombosis"
+        ]
+    },
+    "thrombocytopenia": {
+        "drugbank": [
+            "thrombocytopenia, increase",
+            "bleeding, thrombocytopenia, increase",
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Thrombocytopenia"
+        ]
+    },
+    "pancytopenia": {
+        "drugbank": [
+            "cytopenia, increase", 
+            "myelosuppression, anemia, severe leukopenia, increase",
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Pancytopenia",
+            "Leukopenia"
+        ]
+    },
+    "polyneuropathy": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Neuropathy peripheral"
+        ]
+    },
+    "dyspnoea": {
+        "drugbank": [
+            "respiratory depression, increase"
+        ],
+        "twosides": [
+            "Dyspnoea"
+        ]
+    },
+    "constipation": {
+        "drugbank": [
+            "constipation, increase",
+            "urinary retention, reduced gastrointestinal motility, constipation, increase"
+        ],
+        "twosides": [
+            "Constipation"
+        ]
+    },
+    "pyrexia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Pyrexia",
+            "Body temperature increased"
+        ]
+    },
+    "bronchitis": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Bronchitis"
+        ]
+    },
+    "muscle_spasms": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Muscle spasms"
+        ]
+    },
+    "headache": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Headache"
+        ]
+    },
+    "neuralgia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Neuralgia"
+        ]
+    },
+    "neuropathy_peripheral": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Neuropathy peripheral"
+        ]
+    },
+    "hypertension":{
+        "drugbank": [
+            "hypertension, increase",
+            "hypertension, hyponatremia, water intoxication, increase",
+            "hypertension, tardive dyskinesia, increase",
+            "hypertension, vasoconstricting, increase",
+            "orthostatic hypotension, hypotension, antihypertension, increase",
+            "renal failure, hyperkalemia, hypertension, increase",
+            "renal failure, hypertension, increase"
+        ],
+        "twosides": [
+            "Hypertension", 
+            "Pulmonary arterial hypertension", 
+            "Pulmonary hypertension"
+        ]
+    },
+    "hypotension": {
+        "drugbank": [
+            "hypotension, increase",
+            "congestive heart failure, hypotension, increase",
+            "QTc prolongation, hypotension, increase",
+            "hypotension, CNS depression, increase",
+            "hypotension, hyperkalemia, nephrotoxicity, increase",
+            "hypotension, Electrolyte Disturbance, increase",
+            "hypotension, orthostatic hypotension, increase",
+            "hypotension, nitritoid reactions, facial flushing, nausea, vomiting, increase",
+            "hypotension, sedation, death, somnolence, respiratory depression, increase",
+            "hypotension, hyperkalemia, nephrotoxicity, increase",
+            "hypotension, syncope, increase",
+            "orthostatic hypotension, dizziness, increase",
+            "orthostatic hypotension, hypotension, antihypertension, increase",
+            "orthostatic hypotension, increase",
+            "orthostatic hypotension, syncope, increase",
+            "renal failure, hypotension, hyperkalemia, increase",
+            "renal failure, hypotension, increase"
+        ],
+        "twosides": [
+            "Hypotension",
+            "Orthostatic hypotension"
+        ]
+    },
+    "diarrhea_without_colostomy": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Diarrhoea"
+        ]
+    },
+    "diarrhoea": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Diarrhoea"
+        ]
+    },
+    "diarrhea": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Diarrhoea"
+        ]
+    },
+    "dry_skin": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Dry skin"
+        ]
+    },
+    "acne": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Acne"
+        ]
+    },
+    "vomiting": {
+        "drugbank": [
+            "hypotension, nitritoid reactions, facial flushing, nausea, vomiting, increase"
+        ],
+        "twosides": [
+            "Vomiting"
+        ]
+    },
+    "fatigue/malaise/lethargy": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Fatigue",
+            "Malaise",
+            "Lethargy"
+        ]
+    },
+    "neutropenia/granulocytopenia": {
+        "drugbank": [
+            "neutropenia, increase",
+            "cytopenia, increase",
+            "myelosuppression, anemia, severe leukopenia, increase",
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Neutropenia",
+            "Granulocytopenia"
+        ]
+    },
+    "dehydration": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Dehydration"
+        ]
+    },
+    "febrile_neutropenia": {
+        "drugbank": [
+            "neutropenia, increase",
+            "cytopenia, increase",
+            "myelosuppression, anemia, severe leukopenia, increase",
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Febrile neutropenia"
+        ]
+    },
+    "lymphopenia": {
+        "drugbank": [
+            "myelosuppression, anemia, severe leukopenia, increase"
+        ],
+        "twosides": [
+            "Lymphopenia"
+        ]
+    },
+    "hyperkalemia": {
+        "drugbank": [
+            "hyperkalemia, increase",
+            "renal failure, hyperkalemia, hypertension, increase",
+            "renal failure, hypotension, hyperkalemia, increase",
+            "hypotension, hyperkalemia, nephrotoxicity, increase"
+        ],
+        "twosides": [
+            "Hyperkalaemia"
+        ]
+    },
+    "hypoglycemia": {
+        "drugbank": [
+            "hypoglycemia, increase"
+        ],
+        "twosides": [
+            "Hypoglycaemia"
+        ]
+    },
+    "hypoglycaemia": {
+        "drugbank": [
+            "hypoglycemia, increase"
+        ],
+        "twosides": [
+            "Hypoglycaemia"
+        ]
+    },
+    "chest_pain,not_cardio_or_pleur": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Chest pain",
+            "Musculoskeletal chest pain",
+            "Chest discomfort"
+        ]
+    },
+    "infusion_related_reaction": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Infusion related reaction"
+        ]
+    },
+    "anxiety/agitation": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Anxiety",
+            "Agitation"
+        ]
+    },
+    "depression": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Major depression"
+        ]
+    },
+    "eczema": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Eczema"
+        ]
+    },
+    "erythema": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Erythema"
+        ]
+    },
+    "rash_maculo-papular": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Rash maculo-papular"
+        ]
+    },
+    "alopecia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Alopecia"
+        ]
+    },
+    "rash/desquamation": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Rash"
+        ]
+    },
+    "thrombosis/embolism": {
+        "drugbank": [
+            "thrombosis, increase"
+        ],
+        "twosides": [
+            "Thrombosis",
+            "Deep vein thrombosis",
+            "Pulmonary embolism"
+        ]
+    },
+    "platelet_count": {
+        "drugbank": [
+            "thrombocytopenia, increase",
+            "bleeding, thrombocytopenia, increase",
+            "neutropenia, thrombocytopenia, increase"
+        ],
+        "twosides": [
+            "Platelet count decreased",
+            "Thrombocytopenia"
+        ]
+    },
+    "hyperbilirubinemia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Hyperbilirubinaemia"
+        ]
+    },
+    "hyperlipidaemia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Hyperlipidaemia"
+        ]
+    },
+    "haematuria": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Haematuria"
+        ]
+    },
+    "dysuria": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Dysuria"
+        ]
+    },
+    "dysgeusia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Dysgeusia"
+        ]
+    },
+    "dyspepsia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Dyspepsia"
+        ]
+    },
+    "abdominal_pain": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Abdominal pain",
+            "Abdominal pain lower",
+            "Abdominal pain upper"
+        ]
+    },
+    "nausea": {
+        "drugbank": [
+            "hypotension, nitritoid reactions, facial flushing, nausea, vomiting, increase"
+        ],
+        "twosides": [
+            "Nausea"
+        ]
+    },
+    "pollakiuria": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Pollakiuria"
+        ]
+    },
+    "leukopenia": {
+        "drugbank": [
+            "myelosuppression, anemia, severe leukopenia, increase",
+            "neutropenia, increase",
+            "cytopenia, increase"
+        ],
+        "twosides": [
+            "Leukopenia"
+        ]
+    },
+    "oedema_peripheral": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Oedema peripheral"
+        ]
+    },
+    "edema": {
+        "drugbank": [
+            "edema formation, increase",
+            "fluid retention, increase", 
+            "fluid retention, vasopressor, increase"
+        ],
+        "twosides": [
+            "Oedema",
+            "Fluid retention"
+        ]
+    },
+    "hyponatremia": {
+        "drugbank": [
+            "hyponatremia, increase",
+            "hyponatremia, water intoxication, increase",
+            "hypertension, hyponatremia, water intoxication, increase"
+        ],
+        "twosides": [
+            "Hyponatraemia"
+        ]
+    },
+    "hypokalemia": {
+        "drugbank": [
+            "hypokalemia, increase"
+        ],
+        "twosides": [
+            "Hypokalaemia"
+        ]
+    },
+    "hypomagnesemia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Hypomagnesaemia"
+        ]
+    },
+    "hypocalcemia": {
+        "drugbank": [
+            "hypocalcemia, increase",
+            "nephrotoxicity, hypocalcemia, increase"
+        ],
+        "twosides": [
+            "Hypocalcaemia"
+        ]
+    },
+    "hypercalcemia": {
+        "drugbank": [
+            "hypercalcemia, increase"
+        ],
+        "twosides": [
+            "Hypercalcaemia"
+        ]
+    },
+    "arthralgia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Arthralgia"
+        ]
+    },
+    "increased_ast": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Aspartate aminotransferase increased"
+        ]
+    },
+    "increased_alt": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Alanine aminotransferase increased"
+        ]
+    },
+    "photosensitizing_reaction": {
+        "drugbank": [
+            "photosensitizing, increase"
+        ],
+        "twosides": [
+        ]
+    },
+    "hypersensitivity": {
+        "drugbank": [
+            "hypersensitivity reaction, increase"
+        ],
+        "twosides": [
+            "Hypersensitivity"
+        ]
+    },
+    "upper_respiratory_tract_infection": {
+        "drugbank": [],
+        "twosides": ["Upper respiratory tract infection"]
+    },
+    "cpk_increase": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Blood creatine phosphokinase increased"
+        ]
+    },
+    "neutrophil_count_decreased": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Neutrophil count decreased"
+        ]
+    },
+    "platelet_count_decreased": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Platelet count decreased"
+        ]
+    },
+    "weight_increased": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Weight increased"
+        ]
+    },
+    "white_blood_cell_count_decreased": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "White blood cell count decreased"
+        ]
+    },
+    "decreased_appetite": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Decreased appetite"
+        ]
+    },
+    "creatinine_increase": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Blood creatinine increased"
+        ]
+    },
+    "pain_in_jaw": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Pain in jaw"
+        ]
+    },
+    "asthenia": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Asthenia"
+        ]
+    },
+    "epistaxis": {
+        "drugbank": [
+        ],
+        "twosides": [
+            "Epistaxis"
+        ]
+    }
+}

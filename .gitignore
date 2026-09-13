@@ -1,0 +1,17 @@
+*.out
+*.err
+
+*__pycache__/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+*.egg-info
+.DS_Store
+
+*.pth
+*.npy
+*.svg
+wandb/
+
+.env
+notebooks/fig6/dfci/
+notebooks/arial.ttf

@@ -1,0 +1,40 @@
+seml:
+  executable: .
+  name: test_cl
+  output_dir: .
+  conda_environment: madrigal_env
+  project_root_dir: .
+
+fixed:
+  model.pretrained_model_ckpt: null
+  model.additional_params.decoder_activation: linear
+  model.additional_params.doser_type: amortized 
+  model.additional_params.multi_task: False  # whether to train on DEG prediction or not
+  model.additional_params.seed: 42
+  model.embedding.directory: drug_features/tx/embeddings/
+  model.embedding.model: rdkit
+  model.append_ae_layer: False
+  model.use_drugs: false  # whether to encode drugs and use the drug adversary loss or not
+  model.hparams.dim: 128
+  model.hparams.batch_size: 8192
+  model.hparams.dropout: 0.4
+  model.hparams.autoencoder_width: 512
+  model.hparams.autoencoder_depth: 2
+  model.hparams.autoencoder_lr: 1e-3
+  model.hparams.autoencoder_wd: 1e-7
+  model.hparams.adversary_width: 128
+  model.hparams.adversary_depth: 2
+  # below doesn't matter
+  model.hparams.adversary_lr: 1e-3
+  model.hparams.adversary_wd: 1e-7
+  model.hparams.adversary_steps: 2
+  model.hparams.reg_adversary: 5
+  model.hparams.reg_adversary_cov: 40
+  model.hparams.penalty_adversary: 4
+  model.hparams.dosers_lr: 1e-4
+  model.hparams.dosers_wd: 1e-7
+  model.hparams.dosers_width: 32
+  model.hparams.dosers_depth: 4
+  model.hparams.step_size_lr: 200
+  model.hparams.embedding_encoder_width: 256
+  model.hparams.embedding_encoder_depth: 3

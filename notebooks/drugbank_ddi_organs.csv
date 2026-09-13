@@ -1,0 +1,159 @@
+ddi_class	organ
+CNS depression, hypotonia, increase	others/general
+CNS depression, increase	others/general
+Change in thyroid function, increase	endocrine
+QTc prolongation, decrease	heart
+QTc prolongation, hypotension, increase	heart
+QTc prolongation, increase	heart
+QTc prolongation, torsade de pointes, cardiotoxicity, increase	heart
+absorption, decrease	others/general
+absorption, decrease | serum level, decrease | efficacy, decrease	others/general
+absorption, increase | serum level, increase | adverse effects, increase	others/general
+adverse effects, decrease	others/general
+adverse effects, increase	others/general
+alpha-adrenergic, increase	heart
+analgesic, increase	others/general
+angioedema, increase	immune
+anticholinergic, increase	others/general
+anticoagulant, decrease	blood
+anticoagulant, increase	blood
+antihypertension, decrease	heart, kidney
+antihypertension, increase	heart, kidney
+antiplatelet, increase	blood
+antipsychotic, increase	others/general
+atrioventricular blocking (AV block), increase	heart
+bioavailability, decrease	others/general
+bioavailability, increase	others/general
+bleeding, bruising, increase	blood
+bleeding, gastrointestinal bleeding, increase	gastrointestinal, blood
+bleeding, hemorrhage, increase	blood
+bleeding, increase	blood
+bleeding, nephrotoxicity, gastrointestinal bleeding, increase	kidney, blood
+bleeding, thrombocytopenia, increase	blood
+bradycardia, increase	heart
+bronchoconstrictory, increase	lung
+bronchodilatory, decrease	lung
+cardiac arrhythmia, CNS stimulation, increase	heart
+cardiac arrhythmia, cardiotoxicity, increase	heart
+cardiac arrhythmia, increase	heart
+cardiodepressant, increase	heart
+cardiotoxicity, decrease	heart
+cardiotoxicity, increase	heart
+congestive heart failure, hypotension, increase	heart
+constipation, increase	gastrointestinal
+cytopenia, increase	blood
+diuretic, increase	kidney
+edema formation, increase	kidney
+effectiveness as a diagnostic agent, decrease	others/general
+electrolyte imbalance, increase	kidney
+excretion rate, decrease | serum level, increase	liver, kidney
+excretion rate, increase | serum level, decrease | efficacy, decrease	liver, kidney
+excretion, decrease	liver, kidney
+excretion, increase	liver, kidney
+extrapyramidal symptoms, CNS depression, increase	others/general
+extrapyramidal symptoms, increase	others/general
+fluid retention, increase	kidney
+fluid retention, vasopressor, increase	kidney, heart
+gastrointestinal bleeding, increase	gastrointestinal
+gastrointestinal bleeding, peptic ulcer, increase	gastrointestinal
+gastrointestinal irritation, increase	gastrointestinal
+gastrointestinal ulceration, gastrointestinal irritation, increase	gastrointestinal
+gastrointestinal ulceration, increase	gastrointestinal
+hemorrhage, increase	blood
+hypercalcemia, increase	kidney, heart
+hyperglycemia, increase	endocrine
+hyperkalemia, increase	kidney, heart
+hypersensitivity reaction, increase	immune
+hypertension, decrease	heart, kidney
+hypertension, hyponatremia, water intoxication, increase	endocrine, kidney, heart
+hypertension, increase	heart, kidney
+hypertension, tardive dyskinesia, increase	heart, others/general
+hypertension, vasoconstricting, increase	heart, kidney
+hyperthermia, oligohydrosis, increase	others/general
+hypocalcemia, increase	kidney, heart
+hypoglycemia, decrease	endocrine
+hypoglycemia, increase	endocrine
+hypokalemia, increase	kidney, heart
+hyponatremia, increase	kidney
+hyponatremia, water intoxication, increase	kidney
+hypotension, CNS depression, increase	heart, others/general
+hypotension, Electrolyte Disturbance, increase	kidney, heart
+hypotension, decrease	heart
+hypotension, hyperkalemia, nephrotoxicity, increase	kidney, heart
+hypotension, increase	heart, kidney
+hypotension, nitritoid reactions, facial flushing, nausea, vomiting, increase	heart
+hypotension, orthostatic hypotension, increase	heart
+hypotension, sedation, death, somnolence, respiratory depression, increase	heart, lung, others/general
+hypotension, syncope, increase	heart
+immunosuppressive, increase	immune
+jaw osteonecrosis, anti-angiogenesis, increase	blood, others/general
+lactic acidosis, increase	kidney
+liver damage, increase	liver
+liver enzyme elevations, increase	liver
+metabolism, decrease	liver
+metabolism, increase	liver
+methemoglobinemia, increase	blood
+myelosuppression, anemia, severe leukopenia, increase	blood
+myelosuppression, increase	blood
+myopathic rhabdomyolysis, increase	others/general
+myopathic rhabdomyolysis, myoglobinuria, increase	others/general
+myopathy, weakness, increase	others/general
+nephrotoxicity, decrease	kidney
+nephrotoxicity, hypocalcemia, increase	kidney
+nephrotoxicity, increase	kidney
+neuroexcitatory, increase	others/general
+neuromuscular blockade, increase	others/general
+neuromuscular blocking, decrease	others/general
+neuromuscular blocking, increase	others/general
+neurotoxicity, increase	others/general
+neutropenia, increase	blood
+neutropenia, thrombocytopenia, increase	blood
+opioid antagonism, increase	others/general
+orthostatic hypotension, dizziness, increase	heart
+orthostatic hypotension, hypotension, antihypertension, increase	heart
+orthostatic hypotension, increase	heart
+orthostatic hypotension, syncope, increase	heart, others/general
+ototoxicity, increase	others/general
+ototoxicity, nephrotoxicity, increase	kidney, others/general
+photosensitizing, increase	others/general
+protein binding, decrease	others/general
+pseudotumor cerebri, increase	others/general
+reduced gastrointestinal motility, increase	gastrointestinal
+renal failure, hyperkalemia, hypertension, increase	kidney
+renal failure, hypertension, increase	kidney
+renal failure, hypotension, hyperkalemia, increase	kidney
+renal failure, hypotension, increase	kidney
+renal failure, increase	kidney
+respiratory depression, increase	lung
+sedation, decrease	others/general
+sedation, increase	others/general
+sedation, somnolence, increase	others/general
+sedation, stimulatory, decrease	others/general
+seizure, increase	others/general
+serotonin, CNS depression, increase	others/general
+serotonin, hypomania, increase	others/general
+serotonin, increase	others/general
+serotonin, opioid toxicity, increase	others/general
+serotonin, seizure, increase	others/general
+serum level of the active metabolites, decrease	others/general
+serum level of the active metabolites, decrease | efficacy, decrease	others/general
+serum level of the active metabolites, increase	others/general
+serum level, decrease	others/general
+serum level, increase	others/general
+stimulatory, decrease	others/general
+sympathomimetic, increase	heart
+tachycardia, drowsiness, increase	heart, others/general
+tachycardia, increase	heart
+tendinopathy, increase	others/general
+therapeutic efficacy, decrease	others/general
+therapeutic efficacy, increase	others/general
+thrombocytopenia, increase	blood
+thrombosis, increase	blood
+ulceration, increase	gastrointestinal
+urinary retention, increase	urinary
+urinary retention, reduced gastrointestinal motility, constipation, increase	gastrointestinal, urinary
+vasoconstricting, increase	heart
+vasodilatory, increase	heart
+vasopressor, increase	heart
+vasospastic reactions, increase	heart
+ventricular arrhythmias, cardiac arrhythmia, increase	heart

@@ -1,0 +1,61 @@
+seml:
+  executable: .
+  project_root_dir: .
+
+fixed:
+  training.checkpoint_freq: 50                            # checkpoint frequency to run evaluate, and maybe save checkpoint
+  training.num_epochs: 300                                # maximum epochs for training. One epoch updates either autoencoder, or adversary, depending on adversary_steps.
+  training.max_minutes: 600                              # maximum computation time
+  training.full_eval_during_train: True
+  training.run_eval_disentangle: False                     # whether to calc the disentanglement loss when running the full eval
+  training.run_eval_r2: True
+  training.run_eval_logfold: False
+  training.save_checkpoints: True                         # checkpoints tend to be ~250MB large for LINCS.
+  training.save_dir: model_output/pretrain/adapting/tx/checkpoints/
+  training.run_name: tx_adapting_full_use_drugs  # can also be "wo_drug"
+  
+  dataset.data_params.dataset_path: drug_features/tx/
+  dataset.data_params.perturbation_key: canonical_smiles         # stores name of the drug
+  dataset.data_params.pert_category: max_dose_averaged_sig_id    # stores smiles_celltype_drugdose
+  dataset.data_params.dose_key: pert_dose                      # stores drug dose as a float
+  dataset.data_params.covariate_keys: cell_iname           # necessary field for cell types. Fill it with a dummy variable if no celltypes present.
+  dataset.data_params.smiles_key: canonical_smiles
+  dataset.data_params.use_drugs_idx: True                 # If false, will use One-hot encoding instead
+  dataset.data_params.split_key: split
+  dataset.data_params.degs_key: null
+
+  model.load_pretrained: False
+  model.pretrained_model_path: null
+  model.pretrained_model_ckpt: null
+  model.hparams.dim: 128
+  model.hparams.batch_size: 4096
+  model.additional_params.patience: 10 # patience for early stopping. Effective epochs: patience * checkpoint_freq.
+  model.additional_params.doser_type: amortized 
+  model.additional_params.multi_task: False  # whether to train on DEG prediction or not
+  model.additional_params.seed: 42
+  model.embedding.directory: drug_features/tx/embeddings/
+  model.embedding.model: rdkit
+  model.append_ae_layer: False
+  model.use_drugs: True # whether to encode drugs and use the drug adversary loss or not
+  model.additional_params.decoder_activation: ReLU
+  model.hparams.dropout: 0.2
+  model.hparams.autoencoder_width: 256
+  model.hparams.autoencoder_depth: 3
+  model.hparams.autoencoder_lr: 1e-4
+  model.hparams.autoencoder_wd: 1e-8
+  model.hparams.adversary_width: 128
+  model.hparams.adversary_depth: 2
+  model.hparams.adversary_lr: 1e-3
+  model.hparams.adversary_wd: 1e-8
+  model.hparams.adversary_steps: 2           # every X steps, update the adversary INSTEAD OF the autoencoder.
+  model.hparams.reg_adversary: 10
+  model.hparams.reg_adversary_cov: 10
+  model.hparams.penalty_adversary: 2
+  model.hparams.dosers_lr: 1e-4
+  model.hparams.dosers_wd: 1e-8
+  model.hparams.dosers_width: 32
+  model.hparams.dosers_depth: 2
+  model.hparams.step_size_lr: 50                # this applies to all optimizers (AE, ADV, DRUG)
+  model.hparams.embedding_encoder_width: 256
+  model.hparams.embedding_encoder_depth: 3
+    

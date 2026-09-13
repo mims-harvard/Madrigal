@@ -1,0 +1,29 @@
+data_source: DrugBank
+split_method: split_by_drugs_random
+feature_dim: 128
+
+str_encoder: gin
+gin_edge_input_dim: 18
+gin_batch_norm: true
+kg_encoder: hgt
+hgt_num_layers: 2
+cv_encoder: mlp
+tx_encoder: chemcpa
+use_modality_pretrain: true
+tx_chemcpa_config_path: configs/chemcpa/chemcpa_finetune_configs.yaml
+use_tx_basal: true
+pretrain_tx_downsample_ratio: 0.2
+shared_predictor: true
+raw_encoder_output: true
+
+fusion: transformer_uni_proj  # shouldn't matter
+transformer_agg: x-attn  # shouldn't matter
+num_attention_bottlenecks: 1  # shouldn't matter
+
+pretrain_loss_func: infonce
+save_checkpoints: 50
+pretrain_num_epochs: 1500
+pretrain_batch_size: 1024
+pretrain_mode: str_center_uni
+normalize: false
+
